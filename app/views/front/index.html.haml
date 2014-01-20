@@ -1,0 +1,9 @@
+%h1= t('.title')
+%p 
+%hr
+
+%ul
+  -@category_count.each do |cat|
+    %li
+      = link_to cat[:name], category_path(cat[:id])
+      (#{cat[:total]})

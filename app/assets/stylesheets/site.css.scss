@@ -1,0 +1,78 @@
+body {
+    background: #fff;
+    font-family: Arial, "宋体";
+    color: #333;
+    font-size: 12px;
+    padding: 0px;
+    margin: auto;
+    width: 90%;
+}
+
+dl, ol, ul, li, dt, dd, p, h2, h3 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #00C;
+  text-decoration: none;
+  cursor: pointer;
+  &:visited {
+    color: #666;
+  }
+  &:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: #fffee5;
+  }
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+.font14 {
+  font-size: 14px;
+}

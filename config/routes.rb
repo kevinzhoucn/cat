@@ -1,5 +1,6 @@
 RailsApp::Application.routes.draw do
   get "front/index"
+  get "front/publish"
   resources :categories
   resources :posts
 

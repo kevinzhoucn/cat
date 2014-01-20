@@ -6,6 +6,7 @@ zh-CN:
   front:
     index:
       title: "首页"
+      publish: "发布"
 
   devise:
     sessions:

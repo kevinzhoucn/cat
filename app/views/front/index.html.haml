@@ -1,9 +1,14 @@
-%h1= t('.title')
-%p 
+.head
+  .logo
+    %h1#logo= t('.title')
+    %span= link_to t('.publish'), '/front/publish'
+  #loginbox
+
 %hr
 
-%ul
-  -@category_count.each do |cat|
-    %li
-      = link_to cat[:name], category_path(cat[:id])
-      (#{cat[:total]})
+.content
+  %ul.catlist
+    -@category_count.each do |cat|
+      %li.font14
+        = link_to cat[:name], category_path(cat[:id])
+        (#{cat[:total]})

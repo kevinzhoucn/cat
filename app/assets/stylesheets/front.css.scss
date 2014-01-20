@@ -1,3 +1,39 @@
 // Place all the styles related to the front controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.header {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 79px;
+}
+
+#logo {
+    top: 17px;
+    left: 20px;
+    width: 80%
+}
+
+#loginbox {
+    top: 50px;
+    right: 10px;
+    color: #666;
+}
+
+.logo {
+  span {
+#    float: right;
+  }
+}
+
+hr {
+  width: 100%;
+}
+
+ul.catlist {
+  li {
+    margin: 5px;
+  }
+}
